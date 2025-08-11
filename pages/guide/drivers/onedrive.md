@@ -50,7 +50,7 @@ You do not need to create an application yourself by mounting in this way.
 
 1. 打开 <https://api.oplist.org>，根据自己的账户选择对应的 OneDrive 版本。
 
-2. 勾选“使用 OpenList 提供的参数”，点击“获取Token”后登录需要挂载的 OneDrive账 号，授权后返回页面即可获得刷新令牌。
+2. 勾选“使用 OpenList 提供的参数”，点击“获取Token”后登录需要挂载的 OneDrive账号，授权后返回页面即可获得刷新令牌。
 
    ![在线Token获取工具](/img/drivers/OneDrive/online_api.png)
 
@@ -233,9 +233,9 @@ flowchart TB
 
 :::
 
-## 3. Onedrive Share Url { lang="en" }
+## 3. OneDrive Share Url { lang="en" }
 
-## 3. Onedrive 分享 { lang="zh-CN" }
+## 3. OneDrive 分享 { lang="zh-CN" }
 
 <!--@include: @/snippets/reverse-tip.md-->
 
