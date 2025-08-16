@@ -214,6 +214,12 @@ Ignore the parameters for forwarding direct links, such as `sign` and `openlist_
 ::: en
 **Web Authentication (WebAuthn)** is a new authentication method. You can enable it by following these steps:
 
+::: en
+::: warning Make sure to set `site_url` correctly in the configuration file.
+:::
+
+::: en
+
 1. **Enable WebAuthn Feature**: Go to the admin panel, navigate to `Settings` → `Global`, and enable the option `Enable WebAuthn Login`.
 2. **Bind WebAuthn Credentials**: Go to the `Profile` page in the admin panel and click `Add WebAuthn Credential` to bind your credentials.
 
@@ -245,6 +251,12 @@ Ignore the parameters for forwarding direct links, such as `sign` and `openlist_
 :::
 ::: zh-CN
 **Web Authentication (WebAuthn)** 是一套新的身份验证方法。您可以按照以下步骤启用：
+
+::: zh-CN
+::: warning 需要在配置文件中正确设置`site_url`。
+:::
+
+::: zh-CN
 
 1. **启用 WebAuthn 功能**：进入后台`设置` → `全局`，开启`启用 Webauthn 登录`选项
 2. **绑定 WebAuthn 凭据**：导航至后台`个人资料`页面，点击`添加 Webauthn 凭据`进行绑定
