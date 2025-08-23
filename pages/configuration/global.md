@@ -215,7 +215,8 @@ Ignore the parameters for forwarding direct links, such as `sign` and `openlist_
 **Web Authentication (WebAuthn)** is a new authentication method. You can enable it by following these steps:
 
 ::: en
-::: warning Make sure to set `site_url` correctly in the configuration file.
+::: warning
+Make sure to set `site_url` correctly in the configuration file.
 :::
 
 ::: en
