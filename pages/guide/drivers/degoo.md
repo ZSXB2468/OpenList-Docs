@@ -1,62 +1,50 @@
 ---
 title:
-  en: iLanZou
-  zh-CN: 蓝奏云优享版
-icon: iconfont icon-state
-# This control sidebar order
-top: 380
-# A page can have multiple categories
+  en: Degoo
+  zh-CN: Degoo
 categories:
   - guide
   - drivers
-# A page can have multiple tags
-tag:
-  - Storage
-  - Guide
-  - '302'
-# this page is sticky in article list
-sticky: true
-# this page will appear in starred articles
-star: true
+top: 10
 ---
 
-**https://ilanzou.com**
+https://degoo.com/
 
-<!--@include: @/snippets/reverse-tip.md-->
+## Username { lang="en" }
 
-## Root folder ID { lang="en" }
-
-## 根文件夹ID { lang="zh-CN" }
+## 用户名 { lang="zh-CN" }
 
 ::: en
-root folder ID the default is `0`，Other directory ID View the figure below obtaining method
-![LanZoufolder_id](/img/drivers/lanzou/ilanzou_folder.png)
+Your user's name.
 :::
 ::: zh-CN
-根目录ID，默认为`0`，其它目录ID查看下图获取方式
-![LanZoufolder_id](/img/drivers/lanzou/ilanzou_folder.png)
+您的用户名。
 :::
 
-## username、password { lang="en" }
+## Password { lang="en" }
 
-## 账户、密码 { lang="zh-CN" }
+## 密码 { lang="zh-CN" }
 
 ::: en
-Just fill in your own NewLanzou Cloud Account Password
+Your user's password.
 :::
 ::: zh-CN
-填写自己的蓝奏云优享版帐号密码
+您用户的密码。
 :::
 
-## Known issues { lang="en" }
+## Token { lang="en" }
 
-## 已知问题 { lang="zh-CN" }
+## 令牌 { lang="zh-CN" }
 
 ::: en
-The file size returned by iLanZou is in Kilo Bytes, not Bytes. Therefore, you cannot accurately determine if a file has been modified based on its size. Please pay attention to the configuration of your sync software.
+Optional. If you encounter a 429 error, you can log in using a token.
+
+You can obtain the token from the request body in your browser.
 :::
 ::: zh-CN
-蓝奏云优享版返回的文件大小非 Bytes，而是 Kilo Bytes，因此无法使用文件大小准确判断一个文件是否被修改，需要注意同步软件的配置。
+可选。如果您遇到了429错误，您可以使用令牌登录。
+
+您可以从浏览器的请求内容中获取令牌。
 :::
 
 ## The default download method used { lang="en" }
