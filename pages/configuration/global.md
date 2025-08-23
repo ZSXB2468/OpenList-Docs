@@ -254,7 +254,8 @@ Make sure to set `site_url` correctly in the configuration file.
 **Web Authentication (WebAuthn)** 是一套新的身份验证方法。您可以按照以下步骤启用：
 
 ::: zh-CN
-::: warning 需要在配置文件中正确设置`site_url`。
+::: warning
+需要在配置文件中正确设置 `site_url`。
 :::
 
 ::: zh-CN
